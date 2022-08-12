@@ -22,6 +22,7 @@ int main (){
         imprimeTabuadaDo (cont); 
         cont++;
    }
+   
    imprimeTabuadaDo(30);
 
     // for (int i = 1; i <= 9; i++){
