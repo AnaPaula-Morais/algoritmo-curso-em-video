@@ -6,12 +6,12 @@ using namespace std;
 
 void proxFibonacci(int a, int b) {
     for (int i = 1; i < 10; i++) {
-    int numero3;
-    numero3 = a + b;
-    cout << numero3 << endl;
+        int numero3;
+        numero3 = a + b;
+        cout << numero3 << endl;
 
-    a = b;
-    b = numero3;
+        a = b;
+        b = numero3;
     }
 }
 
@@ -23,8 +23,5 @@ int main () {
     cout << numero2 << endl;
 
     proxFibonacci(numero1, numero2); 
-    
-    
-
-    
+       
 }
